@@ -5,7 +5,7 @@
 
 int main(int argc, char *argv[])
 {
-    /*char s;
+    char s;
 
     int fd[2];
     pipe(fd);
@@ -46,11 +46,5 @@ int main(int argc, char *argv[])
         wait(0);
     }
     
-    exit(0);*/
-    int i;
-    for(i=0;i<3;i++){
-        fork();
-        printf("=");
-    }
     exit(0);
 }
